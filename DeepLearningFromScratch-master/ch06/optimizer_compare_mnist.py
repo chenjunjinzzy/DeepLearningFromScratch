@@ -18,7 +18,7 @@ max_iterations = 3000  # 设置最大迭代次数
 
 # 1:进行实验的设置
 optimizers = {}  # 创建一个字典用于存储不同优化器实例
-optimizers['SGD'] = SGD()  # 存储随机梯度下降优化器实例
+optimizers['SGD'] = SGD()  # 存储 随机梯度下降优化器实例
 optimizers['Momentum'] = Momentum()  # 存储带有动量的随机梯度下降优化器实例
 optimizers['AdaGrad'] = AdaGrad()  # 存储AdaGrad优化器实例
 optimizers['Adam'] = Adam()  # 存储Adam优化器实例

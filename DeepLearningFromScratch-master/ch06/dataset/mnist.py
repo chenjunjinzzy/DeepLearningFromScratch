@@ -18,7 +18,7 @@ key_file = {
     'test_label':'t10k-labels-idx1-ubyte.gz'
 }
 
-dataset_dir = r'E:\workspace\deepLearning\DeepLearningFromScratch\dataset\MNIST\raw'
+dataset_dir = 'dataset\\MNIST\\raw'
 save_file = dataset_dir + "\\mnist.pkl"
 
 train_num = 60000
